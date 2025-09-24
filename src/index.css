@@ -1,0 +1,14 @@
+/* Reset default margin and padding for full-screen layout */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  box-sizing: border-box;
+  font-family: 'Merriweather', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f1e3ed 0%, #e0c3fc 100%);
+}
+
+* {
+  box-sizing: inherit;
+}
