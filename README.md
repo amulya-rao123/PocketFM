@@ -1,16 +1,73 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎧 PocketFM-like Audio Storytelling Platform (Replica)
 
-Currently, two official plugins are available:
+A React-based replica of **PocketFM**, designed for browsing, playing, and managing audio stories.  
+This project demonstrates **authentication, routing, audio playback, favorites management, and search/filter features** with a clean, modular architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Authentication**
+  - JWT-based login & logout flow (stored with `js-cookie`).
+  - Redirects unauthenticated users to `/login`.
 
-## Expanding the ESLint configuration
+- **Home Page**
+  - Browse a list of stories (via static JSON).
+  - Each story card includes **image, title, and short description**.
+  - Click → navigate to `/story/:id`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Story Page**
+  - View full story details.
+  - Integrated **Audio Player** (play/pause, track progress).
+  - "Add to Favorites" button.
+
+- **Favorites Page**
+  - Displays all favorited stories.
+  - Remove from favorites with one click.
+
+- **Search & Filter**
+  - Search bar for quick story lookup.
+  - Filter by categories: **Drama, Thriller, Romance**.
+
+- **Forms & Validation**
+  - Registration form with field-level validation.
+  - Controlled components for inputs, checkboxes, and radios.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Functional Components)  
+- **Routing:** React Router  
+- **State Management:** Context API (Auth & Favorites)  
+- **Styling:** Styled Components  
+- **Icons:** React Icons  
+- **Auth & Cookies:** JWT + js-cookie  
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/ # Reusable UI components
+├── context/ # Auth & Favorites context
+├── pages/ # Page-level components (Home, Story, Favorites, Login, Register)
+├── data/ # Static stories JSON
+├── styles/ # Styled-components theme/global styles
+├── App.jsx # Main routes & layout (Entry point) 
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repo**
+   git clone https://github.com/amulya-rao123/PocketFM.git
+   cd pocketFM
+
+Install dependencies
+
+"npm install"
+
+Run the app
+
+"npm run dev"
