@@ -1,13 +1,13 @@
 # React + Vite
 
-# 🎧 PocketFM-like Audio Storytelling Platform (Replica)
+#  PocketFM-like Audio Storytelling Platform (Replica)
 
 A React-based replica of **PocketFM**, designed for browsing, playing, and managing audio stories.  
 This project demonstrates **authentication, routing, audio playback, favorites management, and search/filter features** with a clean, modular architecture.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Authentication**
   - JWT-based login & logout flow (stored with `js-cookie`).
@@ -37,7 +37,7 @@ This project demonstrates **authentication, routing, audio playback, favorites m
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React (Functional Components)  
 - **Routing:** React Router  
@@ -48,7 +48,7 @@ This project demonstrates **authentication, routing, audio playback, favorites m
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 src/
 ├── components/ # Reusable UI components
 
@@ -60,9 +60,9 @@ src/
 
 ├── styles/ # Styled-components theme/global styles
 
-├── App.jsx # Main routes & layout (Entry point) 
+├── main.jsx # Main routes & layout (Entry point) 
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repo**
    
