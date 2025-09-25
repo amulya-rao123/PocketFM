@@ -63,6 +63,7 @@ src/
 1. **Clone the repo**
    
 git clone https://github.com/amulya-rao123/PocketFM.git
+
 cd pocketFM
 
 Install dependencies
