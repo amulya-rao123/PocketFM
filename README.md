@@ -49,13 +49,17 @@ This project demonstrates **authentication, routing, audio playback, favorites m
 ---
 
 ## 📂 Project Structure
-
 src/
 ├── components/ # Reusable UI components
+
 ├── context/ # Auth & Favorites context
+
 ├── pages/ # Page-level components (Home, Story, Favorites, Login, Register)
+
 ├── data/ # Static stories JSON
+
 ├── styles/ # Styled-components theme/global styles
+
 ├── App.jsx # Main routes & layout (Entry point) 
 
 ## ⚙️ Installation & Setup
